@@ -1,0 +1,214 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link {
+    font-family: 'Jost', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', system-ui;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4.75rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.btn {
+    padding: 1.15rem 1.8rem;
+    line-height: 1;
+    border-radius: 5.5px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all .3s ease-in-out;
+}
+
+.btn:active,
+.btn:focus {
+    box-shadow: none;
+}
+
+.header-separator {
+    border-bottom: 2px solid rgba(204, 204, 204, 0.4);
+}
+
+.bi-arrow-right::before {
+    vertical-align: middle;
+}
+
+.bi-cloud-arrow-down::before {
+    vertical-align: middle;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .dropdown-menu-end {
+        right: 0;
+        left: auto;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #0d6efd;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+
+.hero-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F7FAFF;
+
+    padding: 100px 0;
+}
+
+.challenge-section {
+    padding: 100px 0;
+}
+
+.challenge-section .bi-x-diamond::before {
+    vertical-align: top;
+}
+
+.process-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F7FAFF;
+
+    padding: 100px 0;
+}
+
+.process-feature {
+    padding: 100px 0;
+}
+
+.process-feature .card {
+    background: #F7FAFF;
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.working-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F7FAFF;
+
+    padding: 100px 0;
+}
+
+.working-section .bi-check-lg::before {
+    vertical-align: top;
+}
+
+.use-section {
+    padding: 100px 0;
+}
+
+.text-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.use-section .card {
+    background: #F7FAFF;
+}
+
+.soft-solution {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F7FAFF;
+
+    padding: 100px 0;
+}
+
+.solution-section {
+    padding: 100px 0;
+}
+
+.solution-section .bi-star::before {
+    vertical-align: top;
+}
+
+.success-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F7FAFF;
+
+    padding: 100px 0;
+}
+
+.service-section {
+    padding: 100px 0;
+}
+
+.service-section .card {
+    background: #F7FAFF;
+}
+
+.looking-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F7FAFF;
+
+    padding: 100px 0;
+}
+
+.looking-section .bi-check-lg::before {
+    vertical-align: top;
+}
+
+.looking-section ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
