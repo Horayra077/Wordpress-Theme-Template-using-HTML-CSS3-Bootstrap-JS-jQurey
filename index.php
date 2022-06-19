@@ -317,7 +317,7 @@
                                 </li>
                             </ul>
                             <div class="text-center mt-4">
-                                <a href="#" class="btn btn-primary px-5">Learn More <i class="bi bi-arrow-right text-white"></i></a>
+                                <a href="#" class="btn btn-primary w-100">Learn More <i class="bi bi-arrow-right text-white"></i></a>
                             </div>
                         </div>
                     </div>
@@ -341,7 +341,7 @@
                                 </li>
                             </ul>
                             <div class="text-center mt-4">
-                                <a href="#" class="btn btn-primary px-5">Learn More <i class="bi bi-arrow-right text-white"></i></a>
+                                <a href="#" class="btn btn-primary w-100">Learn More <i class="bi bi-arrow-right text-white"></i></a>
                             </div>
                         </div>
                     </div>
